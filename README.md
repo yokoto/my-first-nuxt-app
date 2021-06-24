@@ -1,4 +1,4 @@
-# my-second-nuxt-app
+# my-first-nuxt-app
 
 ## Build Setup
 
