@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import PostList from '@/components/Posts/Postlist'
+import PostList from '@/components/Posts/PostList'
 import AppButton from '@/components/UI/AppButton'
 
 export default {
