@@ -1,3 +1,5 @@
+const bodyParser = require('body-parser')
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
@@ -75,4 +77,8 @@ export default {
   // router: {
   //   middleware: 'log'
   // }
+  serverMiddleware: [
+    bodyParser.json(),
+    '~/api'
+  ]
 }
